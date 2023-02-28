@@ -11,13 +11,13 @@ public class AnimalPicker2 {
 
         animalChoice = input.nextLine();
 
-        // if (animalChoice.equals("dog")) {
-        // System.out.println(" __ _\no\'\')}____//\n `_/ )\n (_(_/-(_/");
+        if (animalChoice.equals("dog")) {
+            System.out.println(" __ _\no\'\')}____//\n `_/ )\n (_(_/-(_/");
 
-        // } else if (animalChoice.equals("cat")) {
-        // System.out.println(" ^~^ ,\n (\'Y\') )\n / \\/ \n(\\|||/)");
+        } else if (animalChoice.equals("cat")) {
+            System.out.println(" ^~^ ,\n (\'Y\') )\n / \\/ \n(\\|||/)");
 
-        // }
+        }
 
     }
 }
