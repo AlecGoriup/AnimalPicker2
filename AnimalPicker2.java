@@ -19,6 +19,7 @@ public class AnimalPicker2 {
                 System.out.println(" ^~^ ,\n (\'Y\') )\n / \\/ \n(\\|||/)");
 
             }
+
         }
 
     }
