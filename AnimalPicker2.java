@@ -14,10 +14,15 @@ public class AnimalPicker2 {
         while (!animalChoice.equals("dog") || !animalChoice.equals("cat")) {
             if (animalChoice.equals("dog")) {
                 System.out.println(" __ _\no\'\')}____//\n `_/ )\n (_(_/-(_/");
+                break;
 
             } else if (animalChoice.equals("cat")) {
                 System.out.println(" ^~^ ,\n (\'Y\') )\n / \\/ \n(\\|||/)");
+                break;
 
+            } else {
+                System.out.println("Please enter either dog or cat");
+                animalChoice = input.nextLine();
             }
         }
 
