@@ -22,6 +22,7 @@ public class AnimalPicker2 {
 
             } else {
                 System.out.println("Please enter either dog or cat");
+
                 animalChoice = input.nextLine();
             }
         }
